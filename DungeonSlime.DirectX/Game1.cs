@@ -2,8 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary;
-
-namespace DungeonSlime;
+namespace DungeonSlime.DirectX;
 
 public class Game1 : Core
 {   
@@ -28,8 +27,7 @@ public class Game1 : Core
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-        
-        var elapsed = gameTime.ElapsedGameTime.TotalSeconds;
+
         // TODO: Add your update logic here
 
         base.Update(gameTime);
