@@ -14,6 +14,7 @@ public class Game1 : Game
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+        // _graphics.IsFullScreen = true;
     }
 
     protected override void Initialize()
@@ -34,7 +35,8 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-
+        
+        var elapsed = gameTime.ElapsedGameTime.TotalSeconds;
         // TODO: Add your update logic here
 
         base.Update(gameTime);
