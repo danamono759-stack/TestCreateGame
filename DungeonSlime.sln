@@ -5,9 +5,9 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonSlime.DesktopGL", "DungeonSlime\DungeonSlime.DesktopGL.csproj", "{ED6B5FFA-0E1C-4BCE-D08B-69CC2DE9576F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonogameLibary", "MonogameLibary\MonogameLibary.csproj", "{016FB41E-CB79-47A8-8C45-E1371F60A8B9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonSlime.DirectX", "DungeonSlime.DirectX\DungeonSlime.DirectX.csproj", "{B06571F2-2275-4422-A1EE-C2A6BEF2C449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameLibrary", "MonoGameLibrary\MonoGameLibrary.csproj", "{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,18 +31,6 @@ Global
 		{ED6B5FFA-0E1C-4BCE-D08B-69CC2DE9576F}.Release|x64.Build.0 = Release|Any CPU
 		{ED6B5FFA-0E1C-4BCE-D08B-69CC2DE9576F}.Release|x86.ActiveCfg = Release|Any CPU
 		{ED6B5FFA-0E1C-4BCE-D08B-69CC2DE9576F}.Release|x86.Build.0 = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|x64.Build.0 = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Debug|x86.Build.0 = Debug|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|x64.ActiveCfg = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|x64.Build.0 = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|x86.ActiveCfg = Release|Any CPU
-		{016FB41E-CB79-47A8-8C45-E1371F60A8B9}.Release|x86.Build.0 = Release|Any CPU
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -55,6 +43,18 @@ Global
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Release|x64.Build.0 = Release|Any CPU
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Release|x86.ActiveCfg = Release|Any CPU
 		{B06571F2-2275-4422-A1EE-C2A6BEF2C449}.Release|x86.Build.0 = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|x64.Build.0 = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{37BB8FAE-6BFD-4FC1-9406-85C5E5EB58FF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
